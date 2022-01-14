@@ -3,6 +3,7 @@ class Buyer < ApplicationRecord
   has_many :buyer_stocks, dependent: :destroy
   has_many :stocks, through: :buyer_stocks
   validates :email, presence: true
+  validates :account_type, presence: true
   # Include default devise modules. Others available are:
   # :confirmable, :lockable, :trackable and :omniauthable
   devise :database_authenticatable, :registerable, :recoverable, :rememberable, :validatable, :timeoutable
