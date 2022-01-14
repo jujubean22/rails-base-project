@@ -1,16 +1,25 @@
-<h1>Viewing Buyer</h1>
+<div class='adminusers-container'>
+    <div class='adminusers-body'>
+    <div class='header'>
+        <i class='fa fa-square'></i> &nbsp;
+        <h1>
+            <%= @buyer.email.split('@', -1)[0].upcase%>'S PAGE
+        </h1>
 
-<table class="table mt-3">
-    <thead class="thead-dark">
-        <tr>
-        <th>Buyer ID</th>
-        <th>Buyer Email</th>
-        <th>Buyer Created At</th>
-        <th>Number of Stocks Bought</th>
-        <th>Action</th>
-        </tr>
-    </thead>
-    <tbody class="text-white" style="font-size: 16px;">
+    </div>
+        <div class='tables'>
+            <div class='brokers-table'>
+                <table class="table mt-3">
+                    <thead class="thead-dark">
+                        <tr>
+                        <th>Buyer ID</th>
+                        <th>Buyer Email</th>
+                        <th>Buyer Created At</th>
+                        <th>Number of Stocks Bought</th>
+                        <th>Action</th>
+                        </tr>
+                    </thead>
+        <tbody class="text-white" style="font-size: 16px;">
         <tr>
         <td><%= @buyer.id %></td>
         <td><%= @buyer.email %></td>
