@@ -91,7 +91,7 @@ As a Trader, I want to log in my credentials so that I can access my account on 
 
 This API is free and no token is required.
 
-**How the API is called **
+**How the API is called**
 1. First, a folder within the *app folder* called *api* was created
 2. Inside the *api folder*, a new folder named *Freenews* was created
 3. 3 files were made inside the *Freenews folder*:
@@ -115,13 +115,6 @@ This API provides instant access to global stock market and finance news includi
 
 This API is free but has a limit of 100 uses per day. An API key is provided after signing up for an account to gain data access.
 For unlimited callbacks, the user can subscribe to a paid plan.
-
-The token used in this application is:
-
-```
-K2GiBbcezEDuGk5FNtVYAgZovI3boGGQmXRs4KvM
-
-```
 
 **Elements required**
 * BASE_URL
