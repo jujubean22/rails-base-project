@@ -1,0 +1,183 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://cloud.iexapis.com/v1/stock/goog/logo?token=pk_f77a858c236c48d285d9efa486a62ecd
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json; charset=utf-8
+      Content-Type:
+      - application/json; charset=utf-8
+      User-Agent:
+      - IEX Ruby Client/1.4.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Sat, 15 Jan 2022 01:00:24 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - ctoken=13c8aa6e12574a6c82576d82642fc75d; Max-Age=43200; Path=/; Expires=Sat,
+        15 Jan 2022 13:00:24 GMT
+      Iexcloud-Messages-Used:
+      - '2'
+      Iexcloud-Credits-Used:
+      - '2'
+      Iexcloud-Premium-Messages-Used:
+      - '0'
+      Iexcloud-Premium-Credits-Used:
+      - '0'
+      X-Content-Type-Options:
+      - nosniff
+      Strict-Transport-Security:
+      - max-age=15768000
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - GET, OPTIONS
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept, Request-Source
+    body:
+      encoding: ASCII-8BIT
+      string: '{"url":"https://storage.googleapis.com/iexcloud-hl37opg/api/logos/GOOG.png"}'
+  recorded_at: Sat, 15 Jan 2022 01:00:23 GMT
+- request:
+    method: get
+    uri: https://cloud.iexapis.com/v1/stock/GOOG/company?token=pk_f77a858c236c48d285d9efa486a62ecd
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json; charset=utf-8
+      Content-Type:
+      - application/json; charset=utf-8
+      User-Agent:
+      - IEX Ruby Client/1.4.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Sat, 15 Jan 2022 01:00:26 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - ctoken=ccaae3fdae7f42b08d71f276a46ff345; Max-Age=43200; Path=/; Expires=Sat,
+        15 Jan 2022 13:00:26 GMT
+      Iexcloud-Messages-Used:
+      - '11'
+      Iexcloud-Credits-Used:
+      - '11'
+      Iexcloud-Premium-Messages-Used:
+      - '0'
+      Iexcloud-Premium-Credits-Used:
+      - '0'
+      X-Content-Type-Options:
+      - nosniff
+      Strict-Transport-Security:
+      - max-age=15768000
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - GET, OPTIONS
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept, Request-Source
+    body:
+      encoding: ASCII-8BIT
+      string: '{"symbol":"GOOG","companyName":"Alphabet Inc","exchange":"NASDAQ","industry":"All
+        Other Telecommunications ","website":"https://abc.xyz/","description":"","CEO":"Sundar
+        Pichai","securityName":"Alphabet Inc - Class C","issueType":"cs","sector":"Information","primarySicCode":7375,"employees":135301,"tags":["Technology
+        Services","Internet Software/Services","Information","All Other Telecommunications
+        "],"address":"1600 Amphitheatre Pkwy","address2":null,"state":"California","city":"Mountain
+        View","zip":"94043-1351","country":"US","phone":"16502530000"}'
+  recorded_at: Sat, 15 Jan 2022 01:00:26 GMT
+- request:
+    method: get
+    uri: https://cloud.iexapis.com/v1/stock/GOOG/quote?token=pk_f77a858c236c48d285d9efa486a62ecd
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json; charset=utf-8
+      Content-Type:
+      - application/json; charset=utf-8
+      User-Agent:
+      - IEX Ruby Client/1.4.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Sat, 15 Jan 2022 01:00:32 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - ctoken=c16c257c8c544a43b55bc129626de536; Max-Age=43200; Path=/; Expires=Sat,
+        15 Jan 2022 13:00:32 GMT
+      Iexcloud-Messages-Used:
+      - '2'
+      Iexcloud-Credits-Used:
+      - '2'
+      Iexcloud-Premium-Messages-Used:
+      - '0'
+      Iexcloud-Premium-Credits-Used:
+      - '0'
+      X-Content-Type-Options:
+      - nosniff
+      Strict-Transport-Security:
+      - max-age=15768000
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - GET, OPTIONS
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept, Request-Source
+    body:
+      encoding: ASCII-8BIT
+      string: '{"avgTotalVolume":1190321,"calculationPrice":"close","change":13.11,"changePercent":0.00471,"close":2795.73,"closeSource":"official","closeTime":1642194000256,"companyName":"Alphabet
+        Inc - Class C","currency":"USD","delayedPrice":2795.73,"delayedPriceTime":1642193999204,"extendedChange":0.45,"extendedChangePercent":0.00016,"extendedPrice":2796.18,"extendedPriceTime":1642207513102,"high":2824.01,"highSource":"15
+        minute delayed price","highTime":1642194002640,"iexAskPrice":0,"iexAskSize":0,"iexBidPrice":0,"iexBidSize":0,"iexClose":2793.91,"iexCloseTime":1642193999005,"iexLastUpdated":1642193999005,"iexMarketPercent":0.043665889921564414,"iexOpen":2754.69,"iexOpenTime":1642170604120,"iexRealtimePrice":2793.91,"iexRealtimeSize":100,"iexVolume":52019,"lastTradeTime":1642193999204,"latestPrice":2795.73,"latestSource":"Close","latestTime":"January
+        14, 2022","latestUpdate":1642194000256,"latestVolume":1191296,"low":2750,"lowSource":"15
+        minute delayed price","lowTime":1642170601170,"marketCap":1887595842196,"oddLotDelayedPrice":2795.35,"oddLotDelayedPriceTime":1642193999510,"open":2750,"openTime":1642170601169,"openSource":"official","peRatio":null,"previousClose":2782.62,"previousVolume":1328254,"primaryExchange":"NASDAQ","symbol":"GOOG","volume":1191296,"week52High":3037,"week52Low":1721.55,"ytdChange":-0.03364028459456946,"isUSMarketOpen":false}'
+  recorded_at: Sat, 15 Jan 2022 01:00:31 GMT
+recorded_with: VCR 6.0.0
